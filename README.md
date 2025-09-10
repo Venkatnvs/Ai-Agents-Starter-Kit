@@ -16,6 +16,14 @@ This repository contains two minimal, student-friendly AI agents:
 - Pip
 - Node.js 18+ (only for the MCP agent to use the Playwright MCP server via `npx`)
 
+## Demo
+
+- Video
+
+https://github.com/user-attachments/assets/12887c75-5b87-4dac-97b5-94dd47ac10e6
+
+
+
 ### Quick Start
 
 - Tool-based Agent: see `Tool_based_agent/README.md`
