@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "date_tool": {
+            "command": "python",
+            "args": [
+                "servers/date_tool/server.py"
+            ]
+        },
+        "weather": {
+            "command": "python",
+            "args": [
+                "servers/weather/server.py"
+            ],
+            "env": {
+                "OPENWEATHERMAP_API_KEY": "${{OPENWEATHERMAP_API_KEY}}"
+            }
+        },
+        "playwright": {
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest"
+            ]
+        }
+    }
+}
